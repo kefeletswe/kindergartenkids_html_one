@@ -28,7 +28,7 @@ h1{
   float: left;
   padding: 19px 11px;
   color: #fff;
-  background-color: green;
+
   
 }
 
@@ -57,7 +57,7 @@ nav{
 .nav_links{
   flex: 1;
   text-align: right;
-  background-color: aqua;
+
 }
 
 .nav_links ul{
@@ -74,10 +74,24 @@ nav{
 .nav_links ul li a{
   color: #fff;
   text-decoration: none;
+  border: 1px solid transparent;
+  transition: 0.3s ease;
   
 }
 
-.nav_links, #logo{
-  line-height: 50px;
+
+.nav_links ul li a:hover {
+  background-color: #fff;
+  color: black;
 }
 
+/*page image*/
+
+
+.page_image{
+  height: 655px;
+  width: 100%;
+  background: url('../images/computer\ \(1\).jpg')no-repeat center center;
+  background-size: cover;
+  
+}
