@@ -115,4 +115,30 @@ nav{
  
 }
 
+.main_image p, #register_btn{
+  line-height: 28px;
+}
 
+/*register now button ---- will contain the link to the form*/
+#register_btn h2{
+text-align: center;
+background-color: yellow;
+color: #0f4675;
+padding: 10px 20px;
+border: 1px solid transparent;
+transition: 0.2s ease;
+cursor: pointer;
+ 
+
+}
+
+
+
+#register_btn :hover{
+  background-color: #fff;
+  color: black;
+  font-weight: 800;
+  font-family: sans-serif;
+
+}
+/*about us section --- this are will explain to the user what the website is about, and */
