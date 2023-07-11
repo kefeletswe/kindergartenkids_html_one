@@ -26,15 +26,16 @@ h1{
 
 #logo{
   float: left;
-  background-color: blueviolet;
   padding: 19px 11px;
+  color: #fff;
+  background-color: green;
   
 }
 
 span{
   color: yellow;
 }
-/*navigation links start here*/
+/*navigation links start here---  used diplay:flex as instead  of float right as a way to prevent the navigation bar from reversing, used flex:1 to make the navigation to strech on larger screens and become responsive , will later add a max-width so as the flex:1 property can stop streching*/
 .header{    
   width: 100%;
   height: 100px;
@@ -50,12 +51,13 @@ nav{
   padding: 2% 6%;
   justify-content: space-between;
   align-items: center;
-  background-color: blue;
+ 
 }
 
 .nav_links{
   flex: 1;
   text-align: right;
+  background-color: aqua;
 }
 
 .nav_links ul{
@@ -72,6 +74,10 @@ nav{
 .nav_links ul li a{
   color: #fff;
   text-decoration: none;
-  font-family: Roboto, Lato;
+  
+}
+
+.nav_links, #logo{
+  line-height: 50px;
 }
 
