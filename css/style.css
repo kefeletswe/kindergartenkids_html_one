@@ -11,8 +11,7 @@
 body{
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  color: #fff;
-  
+
 
 }
 
@@ -89,7 +88,7 @@ nav{
 
 
 .page_image{
-  height: 655px;
+  height: 600px;
   width: 100%;
   background: url('../images/computer\ \(1\).jpg')no-repeat center center;
   background-size: cover;
