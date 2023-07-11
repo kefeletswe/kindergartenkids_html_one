@@ -139,16 +139,49 @@ cursor: pointer;
 
 }
 /*about us section --- this are will explain to the user what the website is about, and */
-#left-about {
-  padding-top: 30px;
-  width: 33%;
-  float: left;
-  background-color: blue;
+/*about us section*/
+.about_us{
+  width: 90%;
+  text-align: center;
+  padding-top: 100px;
+  margin-left: 70px;
 }
 
-#right-about {
-  padding-top: 30px;
-  width: 33%;
-  float: right;
-  background-color: silver;
+h1{
+  font-size: 36px;
+  font-weight: 600;
 }
+
+#para {color: #777;}
+
+.row{
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about_col{
+  flex-basis: 31%;
+  background: pink;
+  border-radius: 10px;
+  margin-bottom: 10%;
+  padding: 20px 20px;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+
+
+.about_col:hover{
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, .5);
+
+}
+
+
+
+
+
+
+
+
+
+/* about us end */
