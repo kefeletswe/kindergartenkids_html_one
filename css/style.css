@@ -11,5 +11,32 @@
 body{
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
+  color: #fff;
+  background: blanchedalmond;
 
+}
+
+
+/*headings and logo*/
+
+h1 h2{
+  
+}
+
+#logo{
+  float: left;
+  
+}
+
+span{
+  color: yellow;
+}
+/*navigation links start here*/
+#nav-link{
+
+}
+
+#nav-link li{
+  float: right;
+  list-style: none;
 }
