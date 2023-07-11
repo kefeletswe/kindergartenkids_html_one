@@ -87,10 +87,32 @@ nav{
 /*page image*/
 
 
-.page_image{
-  height: 600px;
+.main_image{
+  padding-top: 80px;
+  padding-bottom: 70px;
+  height: 510px;
   width: 100%;
-  background: url('../images/computer\ \(1\).jpg')no-repeat center center;
+  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../images/computer\ \(1\).jpg);/*used linear gradient as to reduce the image brightness as will be use=ing a white text color , this will help the image to be visibel to the user*/
   background-size: cover;
-  
+  background-position: center;
 }
+
+.main_image h1{
+  text-align: center;
+  margin-top: 100px;
+  padding-top: 200px;
+  color: #fff;
+  font-family: lato;
+  font-size: 35px;
+
+}
+
+.main_image p{
+  text-align: center;
+  color: #fff;
+  font-family: lato;
+  font-size: 17px;
+ 
+}
+
+
