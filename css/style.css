@@ -128,11 +128,8 @@ padding: 10px 20px;
 border: 1px solid transparent;
 transition: 0.2s ease;
 cursor: pointer;
- 
 
 }
-
-
 
 #register_btn :hover{
   background-color: #fff;
@@ -142,3 +139,16 @@ cursor: pointer;
 
 }
 /*about us section --- this are will explain to the user what the website is about, and */
+#left-about {
+  padding-top: 30px;
+  width: 33%;
+  float: left;
+  background-color: blue;
+}
+
+#right-about {
+  padding-top: 30px;
+  width: 33%;
+  float: right;
+  background-color: silver;
+}
