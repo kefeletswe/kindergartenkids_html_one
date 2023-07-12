@@ -2,16 +2,16 @@
 
 /*body*/
 * {
-  margin: 0%;
-  padding: 0%;
+  margin: 0;
+  padding: 0;
+  margin-top: 0;
   border: none;
-
   text-decoration: none;
 }
 
 body {
   font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+  
 
 
 }
@@ -77,7 +77,7 @@ nav {
 
 .nav_links ul li a {
   color: #fff;
- 
+
   text-decoration: none;
   border: 1px solid transparent;
   transition: 0.3s ease;
@@ -103,16 +103,16 @@ nav {
     margin: 10px;
     font-size: 16px;
     padding-bottom: 30px;
-    padding: 10px 5px; 
+    padding: 10px 5px;
     padding: 10px 5px;
 
-    
+
   }
 
 
   .header {
     height: 150px;
-  
+
   }
 
 
@@ -157,7 +157,7 @@ nav {
   line-height: 28px;
 }
 
-/*register now button ---- will contain the link to the form*/
+/*register now button ---- will contain the link to the form... plan is to put this in the main image so that the user can register immmedialy this is good for users who know our preschool or have heard about it so they do not really need to scroll down . aslo easy to find
 #register_btn h2 {
   text-align: center;
   background-color: yellow;
@@ -178,11 +178,55 @@ nav {
   font-weight: 800;
   font-family: sans-serif;
 
-}
+}*/
 
 /*about us section --- this are will explain to the user what the website is about, and */
 
+/*facilities*/
+/*facilities start section*/
 
+.facilities {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+
+}
+
+.facilities_col {
+  flex-basis: 31%;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  text-align: left;
+}
+
+.facilities_col img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.facilities_col p {
+  padding: 0;
+}
+
+.facilities_col h3 {
+  margin-top: 16px;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.f_text h1 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+
+}
+
+.f_text p {
+  text-align: center;
+}
+
+/*facilities end section*/
 
 
 #footer {
@@ -264,3 +308,5 @@ nav {
   color: yellow;
   transition: 0.3s;
 }
+
+
