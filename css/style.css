@@ -5,6 +5,7 @@
   margin: 0%;
   padding: 0%;
   border: none;
+
   text-decoration: none;
 }
 
@@ -84,6 +85,26 @@ nav{
   color: black;
 }
 
+
+/* for navbar icons to only show on small screens */
+@media screen and (max-width: 770px) {
+
+ .nav_links {
+    clear: left;
+ 
+    margin-left: 3px;
+    margin-right: 6px;
+    margin-bottom: 20px;
+   
+    padding-left: 20px;
+ 
+    font-size: 17px;
+    
+      
+      
+  }
+}
+
 /*page image*/
 
 
@@ -128,8 +149,11 @@ padding: 10px 20px;
 border: 1px solid transparent;
 transition: 0.2s ease;
 cursor: pointer;
+ 
 
 }
+
+
 
 #register_btn :hover{
   background-color: #fff;
@@ -139,49 +163,84 @@ cursor: pointer;
 
 }
 /*about us section --- this are will explain to the user what the website is about, and */
-/*about us section*/
-.about_us{
-  width: 90%;
+
+
+
+
+#footer{
+  padding: 90px 0 20px;
+  background: blue;
+}
+
+#footer_p,#footer_h{
   text-align: center;
-  padding-top: 100px;
-  margin-left: 70px;
 }
 
-h1{
-  font-size: 36px;
-  font-weight: 600;
+.title-text{
+  padding-bottom: 10px;
 }
 
-#para {color: #777;}
+.footer_row{
+width: 80%;
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
 
-.row{
-  margin-top: 5%;
+.footer_right, .footer_left{
+
+  flex-basis: 45%;
+  margin-bottom: 20px;
+
+}
+
+.footer_right{
+  text-align: right;
+}
+
+.social_icons{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
-.about_col{
-  flex-basis: 31%;
-  background: pink;
-  border-radius: 10px;
-  margin-bottom: 10%;
-  padding: 20px 20px;
-  box-sizing: border-box;
+.social_icons a{
+  text-decoration: none;
+  padding: 10px;
+  background-color: orangered;
+  margin: 20px;
+  border-radius: 50%;
+}
+
+.social_icons a i{
+  font-size: 2rem;
+  color: black;
+  opacity: 0.9;
+}
+
+.footer_bottom{
+  background-color: green;
+  padding: 28px;
+  text-align: center;
+}
+
+.bottom{
+  background-color: green;
+  padding: 10px;
+  
+}
+
+.footer_bottom p{
+  color: yellow;
+}
+
+/* hover effect for social icons*/
+.social_icons a:hover{
+  background-color: blue;
   transition: 0.3s;
 }
 
-
-.about_col:hover{
-  box-shadow: 0 0 20px 0px rgba(0, 0, 0, .5);
-
+.social_icons a:hover i{
+  color: yellow;
+  transition: 0.3s;
 }
-
-
-
-
-
-
-
-
-
-/* about us end */
