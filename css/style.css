@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap');
 
 /*body*/
-*{
+* {
   margin: 0%;
   padding: 0%;
   border: none;
@@ -9,7 +9,7 @@
   text-decoration: none;
 }
 
-body{
+body {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
 
@@ -19,24 +19,25 @@ body{
 
 /*headings and logo*/
 
-h1{
+h1 {
   font-size: 280%;
   margin-left: 30px;
 }
 
-#logo{
+#logo {
   float: left;
   padding: 19px 11px;
   color: #fff;
 
-  
+
 }
 
-span{
+span {
   color: yellow;
 }
+
 /*navigation links start here---  used diplay:flex as instead  of float right as a way to prevent the navigation bar from reversing, used flex:1 to make the navigation to strech on larger screens and become responsive , will later add a max-width so as the flex:1 property can stop streching*/
-.header{    
+.header {
   width: 100%;
   height: 100px;
   background: #0f4675;
@@ -44,39 +45,42 @@ span{
   position: fixed;
   top: 0;
   left: 0;
-  right: 0;}
+  right: 0;
+}
 
-nav{
+nav {
   display: flex;
+  flex-wrap: wrap;
   padding: 2% 6%;
   justify-content: space-between;
   align-items: center;
- 
+
 }
 
-.nav_links{
+.nav_links {
   flex: 1;
   text-align: right;
 
 }
 
-.nav_links ul{
+.nav_links ul {
   font-size: 110%;
   letter-spacing: 2px;
 }
-.nav_links ul li{
+
+.nav_links ul li {
   list-style: none;
   display: inline-block;
   padding: 8px 12px;
   position: relative;
 }
 
-.nav_links ul li a{
+.nav_links ul li a {
   color: #fff;
   text-decoration: none;
   border: 1px solid transparent;
   transition: 0.3s ease;
-  
+
 }
 
 
@@ -89,36 +93,48 @@ nav{
 /* for navbar icons to only show on small screens */
 @media screen and (max-width: 770px) {
 
- .nav_links {
-    clear: left;
- 
-    margin-left: 3px;
-    margin-right: 6px;
-    margin-bottom: 20px;
-   
-    padding-left: 20px;
- 
-    font-size: 17px;
-    
-      
-      
+  .nav_links ul {
+
+
+    padding: 5px;
+    justify-content: center;
+    display: flex;
+    margin: 10px;
+    font-size: 16px;
+    padding-bottom: 30px;
+    padding: 10px 5px;
+
   }
+
+
+  .header {
+    height: 140px;
+
+  }
+
+  #logo {
+
+    padding: 10px 5px;
+  }
+
+
 }
 
 /*page image*/
 
 
-.main_image{
+.main_image {
   padding-top: 80px;
   padding-bottom: 70px;
   height: 510px;
   width: 100%;
-  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../images/computer\ \(1\).jpg);/*used linear gradient as to reduce the image brightness as will be use=ing a white text color , this will help the image to be visibel to the user*/
+  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../images/computer\ \(1\).jpg);
+  /*used linear gradient as to reduce the image brightness as will be use=ing a white text color , this will help the image to be visibel to the user*/
   background-size: cover;
   background-position: center;
 }
 
-.main_image h1{
+.main_image h1 {
   text-align: center;
   margin-top: 100px;
   padding-top: 200px;
@@ -128,83 +144,87 @@ nav{
 
 }
 
-.main_image p{
+.main_image p {
   text-align: center;
   color: #fff;
   font-family: lato;
   font-size: 17px;
- 
+
 }
 
-.main_image p, #register_btn{
+.main_image p,
+#register_btn {
   line-height: 28px;
 }
 
 /*register now button ---- will contain the link to the form*/
-#register_btn h2{
-text-align: center;
-background-color: yellow;
-color: #0f4675;
-padding: 10px 20px;
-border: 1px solid transparent;
-transition: 0.2s ease;
-cursor: pointer;
- 
+#register_btn h2 {
+  text-align: center;
+  background-color: yellow;
+  color: #0f4675;
+  padding: 10px 20px;
+  border: 1px solid transparent;
+  transition: 0.2s ease;
+  cursor: pointer;
+
 
 }
 
 
 
-#register_btn :hover{
+#register_btn :hover {
   background-color: #fff;
   color: black;
   font-weight: 800;
   font-family: sans-serif;
 
 }
+
 /*about us section --- this are will explain to the user what the website is about, and */
 
 
 
 
-#footer{
+#footer {
   padding: 90px 0 20px;
   background: blue;
 }
 
-#footer_p,#footer_h{
+#footer_p,
+#footer_h {
   text-align: center;
 }
 
-.title-text{
+.title-text {
   padding-bottom: 10px;
 }
 
-.footer_row{
-width: 80%;
-margin: 0 auto;
-display: flex;
-justify-content: space-between;
-flex-wrap: wrap;
+.footer_row {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-.footer_right, .footer_left{
+.footer_right,
+.footer_left {
 
   flex-basis: 45%;
   margin-bottom: 20px;
 
 }
 
-.footer_right{
+.footer_right {
   text-align: right;
 }
 
-.social_icons{
+.social_icons {
   display: flex;
   justify-content: center;
 }
 
-.social_icons a{
+.social_icons a {
   text-decoration: none;
   padding: 10px;
   background-color: orangered;
@@ -212,35 +232,35 @@ flex-wrap: wrap;
   border-radius: 50%;
 }
 
-.social_icons a i{
+.social_icons a i {
   font-size: 2rem;
   color: black;
   opacity: 0.9;
 }
 
-.footer_bottom{
+.footer_bottom {
   background-color: green;
   padding: 28px;
   text-align: center;
 }
 
-.bottom{
+.bottom {
   background-color: green;
   padding: 10px;
-  
+
 }
 
-.footer_bottom p{
+.footer_bottom p {
   color: yellow;
 }
 
 /* hover effect for social icons*/
-.social_icons a:hover{
+.social_icons a:hover {
   background-color: blue;
   transition: 0.3s;
 }
 
-.social_icons a:hover i{
+.social_icons a:hover i {
   color: yellow;
   transition: 0.3s;
 }
