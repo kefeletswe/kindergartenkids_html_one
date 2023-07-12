@@ -182,6 +182,67 @@ nav {
 
 /*about us section --- this are will explain to the user what the website is about, and */
 
+.our_team{
+  margin-top: 10%;
+  background-color: #009688;
+ 
+}
+
+.our_team h1{
+  font-family: 'Allura', cursive;
+  font-size: 52px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.team{
+  display: flex;
+  justify-content: center;
+  width: auto;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.employee_section_1{
+  background: #fff;
+  margin: 5px;
+  margin-bottom: 50px;
+  width: 300px;
+  padding: 20px;
+  line-height: 20px;
+  color: #8e8b8b;  
+ 
+}
+
+.team .employee_section_1 h3{
+  color: #81c644;
+  font-size: 26px;
+  margin-top: 50px;
+}
+
+.team .employee_section_1 p.role{
+  color: #ccc;
+  margin: 12px 0;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.team .employee_section_1 .team_img{
+ 
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.team .employee_section_1 .team_img img{
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+}
 /*facilities*/
 /*facilities start section*/
 
@@ -305,7 +366,7 @@ nav {
 }
 
 .social_icons a:hover i {
-  color: yellow;
+  color: mistyrose;
   transition: 0.3s;
 }
 
