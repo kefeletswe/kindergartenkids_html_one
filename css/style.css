@@ -157,8 +157,8 @@ nav {
   line-height: 28px;
 }
 
-/*register now button ---- will contain the link to the form... plan is to put this in the main image so that the user can register immmedialy this is good for users who know our preschool or have heard about it so they do not really need to scroll down . aslo easy to find
-#register_btn h2 {
+/*register now button ---- will contain the link to the form... plan is to put this in the main image so that the user can register immmedialy this is good for users who know our preschool or have heard about it so they do not really need to scroll down . aslo easy to find*/
+#register_btn {
   text-align: center;
   background-color: yellow;
   color: #0f4675;
@@ -173,12 +173,12 @@ nav {
 
 
 #register_btn :hover {
-  background-color: #fff;
+ 
   color: black;
   font-weight: 800;
   font-family: sans-serif;
 
-}*/
+}
 
 /*about us section --- this are will explain to the user what the website is about, have set the height to 100vh as when navigation links are clicked they do not show all off the page*/
 .about_container{
@@ -299,8 +299,6 @@ nav {
 }
 
 /*facilities end section*/
-
-
 
 
 
