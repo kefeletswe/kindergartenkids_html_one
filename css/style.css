@@ -2,9 +2,9 @@
 
 /*body*/
 * {
-  margin: 0;
-  padding: 0;
-  margin-top: 0;
+  margin: 0%;
+  padding: 0%;
+  margin-top: 0%;
   border: none;
   text-decoration: none;
 }
@@ -181,7 +181,11 @@ nav {
 }*/
 
 /*about us section --- this are will explain to the user what the website is about, have set the height to 100vh as when navigation links are clicked they do not show all off the page*/
-
+.about_container{
+  height: 100vh; /*this height keeps this helps navivation to show all page contents when clicked*/
+  padding-top: 100px;
+  background-color: #009688;
+}
 
 
 /*Our team shows workers and their responsibilities*/
@@ -254,12 +258,11 @@ nav {
 
 /*facilities start section*/
 
-.facilities {
-  width: 80%;
-  margin: auto;
-  text-align: center;
-  padding-top: 100px;
 
+
+.facilities {
+  width: 100%;
+  padding: 50px 0;
 }
 
 .facilities_col {
@@ -296,6 +299,63 @@ nav {
 }
 
 /*facilities end section*/
+
+/*form would like the form to be on the home page on top of the main image as a buttone with the llink register and the user can register*/
+
+
+.form_container{
+  background-color: #009688;
+  font-family: 'Roboto';
+}
+.details{
+width: 360px;
+height: 620px;
+margin: auto;
+background-color:orange;
+border-radius: 3px;
+}
+
+.details h1{
+text-align: center;
+padding-top: 15px;
+}
+
+.details p{
+  text-align: center;
+}
+
+form{
+width: 300px;
+margin-left: 20px;
+}
+
+form label{
+display: flex;
+margin-top: 20px;
+font-size: 18px;
+}
+
+form input{
+  width: 100%;
+  padding: 7px;
+  border: none;
+  border: 1px solid black;
+  border-radius: 6px;
+  outline: none;
+}
+
+
+#tbutton{
+  width: 300px;
+  height: 35px;
+  margin-top: 20px;
+  border: none;
+  background-color: #0f4675;
+  color: #fff;
+  font-size: 18px;
+}
+
+
 
 
 #footer {
