@@ -188,6 +188,44 @@ nav {
 }
 
 
+/*this has all the relevant info about the company, added some grid to enhace the look*/
+.company_stats{
+  margin-left: 1%;
+  margin-right: 1%;
+  padding-top: 95px; 
+  
+}
+
+.company_face h1{
+  text-align: center
+
+}
+
+.more_stats{
+  text-align: justify;
+}
+
+.servive_offers{
+  
+  display: grid;
+  grid-template-rows: 50px 50px 50px 50px 50px 50px;  
+}
+
+.light, .phone ,.hours{
+  
+  background-color: beige;
+  color: black;
+  font-family: sans-serif;
+  
+}
+.dark ,.open ,.age{
+  background: lightgray;
+  color: black;
+  font-family: sans-serif;
+}
+
+
+
 /*Our team shows workers and their responsibilities*/
 .team_container {
   padding-top: 100px;
