@@ -300,60 +300,6 @@ nav {
 
 /*facilities end section*/
 
-/*form would like the form to be on the home page on top of the main image as a buttone with the llink register and the user can register*/
-
-
-.form_container{
-  background-color: #009688;
-  font-family: 'Roboto';
-}
-.details{
-width: 360px;
-height: 620px;
-margin: auto;
-background-color:orange;
-border-radius: 3px;
-}
-
-.details h1{
-text-align: center;
-padding-top: 15px;
-}
-
-.details p{
-  text-align: center;
-}
-
-form{
-width: 300px;
-margin-left: 20px;
-}
-
-form label{
-display: flex;
-margin-top: 20px;
-font-size: 18px;
-}
-
-form input{
-  width: 100%;
-  padding: 7px;
-  border: none;
-  border: 1px solid black;
-  border-radius: 6px;
-  outline: none;
-}
-
-
-#tbutton{
-  width: 300px;
-  height: 35px;
-  margin-top: 20px;
-  border: none;
-  background-color: #0f4675;
-  color: #fff;
-  font-size: 18px;
-}
 
 
 
