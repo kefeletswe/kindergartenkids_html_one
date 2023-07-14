@@ -1,4 +1,6 @@
-<!-- Page 4form could not link this link this file to css -->
+<!-- form could not link this link this file to css 
+decided to link the css using the style tag instead of the external as i failed to do so . this was the only method that worked ...wanted to link the form on the navigation bar with the name REGISTER but had issues with small screens so decided to remove it and add it to the home page image . would like the form to be on the home page on top of the main image as a buttone with the llink register and the user can register-->
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,7 +12,7 @@
   <link rel="stylesheet" href="/index.html">
   <title>Document</title>
   <style>
-    /* decided to link the css using the style tag instead of the external as i failed to do so . this was the only method that worked ...wanted to link the form on the navigation bar with the name REGISTER but had issues with small screens so decided to remove it and add it to the home page image . would like the form to be on the home page on top of the main image as a buttone with the llink register and the user can register*/
+  
 
 
     .form_container {
@@ -73,29 +75,22 @@
 </head>
 
 <body>
-  <section class="form_container" id="formy">
+  <section class="form_container">
     <div class="details">
       <h1>Register</h1>
       <p> Register for September Intake </p>
       <form action="https://formdump.codeinstitute.net" method="POST">
         <label for=""> Parents FirstName</label>
         <input type="text" placeholder="FirstName" required>
-
-        
-
         <label for="">Parents LastName</label>
         <input type="text" placeholder="LastName" required>
         <label for="">Childs Firstname</label>
         <input type="text" placeholder="Firstname" required>
         <label for="">Childs Lastname</label>
         <input type="text" placeholder="Firstname" required>
-       
-
         <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-
-        <!-- Add your input field for an email address here -->
-
+        <input type="email" id="email" name="email" placeholder="Email"  required>
+        <!-- input field for an email address here -->
         <input id="tbutton" type="submit">
       </form>
     </div>
