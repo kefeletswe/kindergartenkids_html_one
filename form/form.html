@@ -5,7 +5,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!--CSS and Html-->
+  <!--CSS and Html-->
   <link rel="stylesheet" type="text/css" href="css/styles.css">
   <link rel="stylesheet" href="/index.html">
   <title>Document</title>
@@ -74,30 +74,37 @@
 
 <body>
   <section class="form_container" id="formy">
-    action="https://formdump.codeinstitute.net" method="post"
-    <form action="https://formdump.codeinstitute.net" method="get">
-      <div class="details">
-        <h1>Register</h1>
-        <p> Register for September Intake </p>
-        <form action="">
-          <label for=""> Parents FirstName</label>
-          <input type="text" placeholder="FirstName">
-          <label for="">Parents LastName</label>
-          <input type="text" placeholder="LastName">
-          <label for="">Childs Firstname</label>
-          <input type="text" placeholder="Firstname">
-          <label for="">Childs Lastname</label>
-          <input type="text" placeholder="Firstname">
-          <label for="">Email</label>
-          <input type="email" placeholder="Email">
-          <input id="tbutton" type="button" value="Submit">
-        </form>
-      </div>
-    </section>
-    </form>
+    <div class="details">
+      <h1>Register</h1>
+      <p> Register for September Intake </p>
+      <form action="https://formdump.codeinstitute.net" method="POST">
+        <label for=""> Parents FirstName</label>
+        <input type="text" placeholder="FirstName" required>
+
+        
+
+        <label for="">Parents LastName</label>
+        <input type="text" placeholder="LastName" required>
+        <label for="">Childs Firstname</label>
+        <input type="text" placeholder="Firstname" required>
+        <label for="">Childs Lastname</label>
+        <input type="text" placeholder="Firstname" required>
+       
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <!-- Add your input field for an email address here -->
+
+        <input id="tbutton" type="submit">
+      </form>
+    </div>
+  </section>
 
 
-    
+
+
+
 
 
 </body>
