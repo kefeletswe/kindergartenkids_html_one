@@ -319,6 +319,7 @@ nav {
 .facilities {
   width: 100%;
   padding: 50px 0;
+  
 }
 
 .facilities_col {
@@ -329,8 +330,9 @@ nav {
 }
 
 .facilities_col img {
-  width: 100%;
+  width: 50%;
   border-radius: 10px;
+  
 }
 
 .facilities_col p {
