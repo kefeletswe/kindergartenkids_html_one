@@ -34,6 +34,8 @@ span {
   color: yellow;
 }
 
+
+
 /*navigation links start here---  used diplay:flex as instead  of float right as a way to prevent the navigation bar from reversing, used flex:1 to make the navigation to strech on larger screens and become responsive , will later add a max-width so as the flex:1 property can stop streching*/
 .heading {
   width: 100%;
@@ -113,12 +115,12 @@ nav {
     padding: 50px;
     padding-left: 5px;
     padding-top: 15px;
-    line-height: 10px; /*reducing the space between logo and nav area on small screens*/
+    line-height: 5px; /*reducing the space between logo and nav area on small screens*/
   }
 
   #logo {
-   
-    padding-right: 10px;
+    
+    padding-right: 30px;
   }
 
   #nav_links ul li {
@@ -128,10 +130,20 @@ nav {
 
   }
 
+  #nav_links, #logo {
+    line-height: 10px;
+  }
 
-
-
+  .about_container {
+    height: 80vh;
+    padding-top: 50px;
+  
+  }
 }
+
+
+
+
 
 /*page image*/
 
@@ -197,12 +209,17 @@ nav {
 .about_container {
   height: 100vh;
   /*this height keeps this helps navivation to show all page contents when clicked*/
-  padding-top: 100px;
+  padding-top: 10px;
   background-color: #009688;
 }
 
 
 /*this has all the relevant info about the company, added some grid to enhace the look*/
+
+.about_container{
+  padding-top: 20px;
+ 
+}
 .company_stats {
   margin-left: 1%;
   margin-right: 1%;
@@ -211,7 +228,8 @@ nav {
 }
 
 .company_face h1 {
-  text-align: center
+padding-bottom: 15px;
+
 }
 
 .more_stats {
@@ -319,7 +337,6 @@ nav {
 .facilities {
   width: 100%;
   padding: 50px 0;
-  
 }
 
 .facilities_col {
@@ -332,7 +349,6 @@ nav {
 .facilities_col img {
   width: 50%;
   border-radius: 10px;
-  
 }
 
 .facilities_col p {
