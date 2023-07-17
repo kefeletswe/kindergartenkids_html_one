@@ -87,7 +87,7 @@ I have confirmed that some of the features in the website are responsive and wor
 I confirm that all the features of the form are working.
 
 
-Problems
+Solved Problems
 
 
 
@@ -95,6 +95,15 @@ when on small screens the navigation bar was out of the blue backgound and on to
 
 ![a](https://github.com/kefeletswe/kindergartenkids_html_one/assets/109689817/f659b747-c1a3-4c80-a019-7060d90406f8)
  when register button is put as a div which is sugested by the W3C validator it becomes a block element which fills out the whole line.
+
+
+
+I could not push my project to git hub so used the following command and problem was solved git config pull.rebase true
+git pull
+git push
+
+ ![image](https://github.com/kefeletswe/kindergartenkids_html_one/assets/109689817/c6673696-991b-4a43-88a8-6d3889f7051b)
+
 
 
 Validator Testing
