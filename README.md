@@ -1,4 +1,4 @@
- Kindergartenkids_html_one is a site that hopes to help people find  a preschool for their children in Ireland. The site will be targeted toward parents who are looking for information about preschools.Parents will see information about the schools location, curriculum, employees, and activities that their kids will have if they enroll their kids.They will also be able to register online if they are interested in enrolling their children.
+Kindergartenkids_html_one is a site that hopes to help people find  a preschool for their children in Ireland. The site will be targeted toward parents who are looking for information about preschools.Parents will see information about the schools location, curriculum, employees, and activities that their kids will have if they enroll their kids.They will also be able to register online if they are interested in enrolling their children.
 
 
  ![image](https://github.com/kefeletswe/kindergartenkids_html_one/assets/109689817/60f262b9-84c4-443a-b52d-7b599456e0cf)
@@ -6,14 +6,14 @@
 
 
 
-.FEATURES
+FEATURES
 
 ![image](https://github.com/kefeletswe/kindergartenkids_html_one/assets/109689817/74da4f10-32d3-4885-baba-10f23144e4d9)
 
 
 
 Existing Features
-.Navigation Bar
+Navigation Bar
 
 The navigation bar is responsive on all four pages which are Logo,  Home  About, Team and Facilities. The navigation is also fixed to the whole page which allows easy navigation for the user without having to scroll up and down. 
 
