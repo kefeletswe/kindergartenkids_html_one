@@ -115,6 +115,12 @@ facilities section is supposed to look like the image below but it does not, tri
 
 
 
+
+![image](https://github.com/kefeletswe/kindergartenkids_html_one/assets/109689817/38945fc9-eba3-44dc-b499-892ca44b24c5)
+
+
+
+
 when using small devices and when clicking the about and facilities link they all show some contents that are cut of
 
 ![image](https://github.com/kefeletswe/kindergartenkids_html_one/assets/109689817/6d2e7b3c-c501-48f9-a8bf-e4a0636564b1)
