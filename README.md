@@ -100,9 +100,20 @@ when on small screens the navigation bar was out of the blue backgound and on to
 Validator Testing
 HTML
 16 errors werre returned when passing through the official W3C validator
+
+
+
 CSS
 16 errors were found when passing through the official (Jigsaw) validator
 facilities images did not show on the deployed link so had to remove the / before the images and it was solved.
+
+
+
+Lighthouse
+
+
+![image](https://github.com/kefeletswe/kindergartenkids_html_one/assets/109689817/9d2303b0-bb3b-4c11-b667-4c3be76edf01)
+
 
 
 
