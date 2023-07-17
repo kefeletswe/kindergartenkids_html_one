@@ -333,9 +333,11 @@ padding-bottom: 15px;
 /*facilities start section*/
 
 
+git config pull.rebase true.
+git config pull.rebase true
 
 .facilities {
-  width: 100%;
+  width: 70%;
   padding: 100px 0;
   
 }
