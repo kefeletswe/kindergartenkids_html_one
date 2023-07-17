@@ -121,7 +121,8 @@ facilities images did not show on the deployed link so had to remove the / befor
 Lighthouse
 
 
-![image](https://github.com/kefeletswe/kindergartenkids_html_one/assets/109689817/9d2303b0-bb3b-4c11-b667-4c3be76edf01)
+![image](https://github.com/kefeletswe/kindergartenkids_html_one/assets/109689817/9170b651-6d1f-4d88-b600-3e1925f22c2d)
+
 
 
 
