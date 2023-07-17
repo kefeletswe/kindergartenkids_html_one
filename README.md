@@ -6,14 +6,14 @@
 
 
 
-FEATURES
+.FEATURES
 
 ![image](https://github.com/kefeletswe/kindergartenkids_html_one/assets/109689817/74da4f10-32d3-4885-baba-10f23144e4d9)
 
 
 
 Existing Features
-Navigation Bar
+.Navigation Bar
 
 The navigation bar is responsive on all four pages which are Logo,  Home  About, Team and Facilities. The navigation is also fixed to the whole page which allows easy navigation for the user without having to scroll up and down. 
 
