@@ -89,7 +89,7 @@ I confirm that all the features of the form are working.
 
 Problems
 
-![1](https://github.com/kefeletswe/kindergartenkids_html_one/assets/109689817/eff44225-0563-4ee6-8c2a-464a7c4f2ad3)
+
 
 when on small screens the navigation bar was out of the blue backgound and on top of other page contents making it hard to read other contents so height was increased through meadia queries for small screens and added a lineheight of 10px on the  #nav_links, #logo
 
