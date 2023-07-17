@@ -148,6 +148,11 @@ when using small devices and when clicking the about and facilities link they al
 
 
 
+The span on the logo area when using small devices the Kids text goes over the kindergarten text, tried using a line-height , reducing font , stting display to flex but still having the same issue.
+
+
+
+
 
 DEPLOYMENT
 This site was deployed to GitHub pages. The steps are as followers;
