@@ -1,0 +1,1 @@
+ Kindergartenkids_html_onE is a site that hopes to help people find  a preschool for their children in Ireland. The site will be targeted toward parents who are looking for information about preschools.Parents will see information about the schools location, curriculum, employees, and activities that their kids will have if they enroll their kids.
